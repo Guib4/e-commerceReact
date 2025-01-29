@@ -1,0 +1,57 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text color */
+}
+
+h1 {
+  text-align: center;
+  color: #ffcc00; /* Highlight color */
+}
+
+h2 {
+  color: #ffcc00; /* Highlight color */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #ffcc00; /* Highlight color */
+  color: #121212; /* Dark text color */
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+}
+
+button:hover {
+  background-color: #e6b800; /* Darker shade on hover */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #1e1e1e; /* Card background */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
