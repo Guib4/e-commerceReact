@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const ProductListing = ({ products, onAddToCart }) => {
   return (
     <div>
-      <h2>Products</h2>
+      <h2>Produtos</h2>
       <ul>
         {products.map((product) => (
           <li key={product.id}>

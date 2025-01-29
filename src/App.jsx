@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div>
-      <h1>E-Commerce App</h1>
+      <h1>Geek Haven</h1>
       <Category categories={['Camisetas', 'Histórias em Quadrinhos', 'Card Games', 'Jogos de Tabuleiro']} onSelectCategory={handleSelectCategory} />
       <ProductListing products={filteredProducts} onAddToCart={handleAddToCart} />
       <ShoppingCart cartItems={cartItems} onRemoveFromCart={handleRemoveFromCart} />

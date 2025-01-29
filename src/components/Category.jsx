@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const Category = ({ categories, onSelectCategory }) => {
   return (
     <div>
-      <h2>Categories</h2>
+      <h2>Categorias</h2>
       <ul>
         {categories.map((category) => (
           <li key={category} onClick={() => onSelectCategory(category)}>
